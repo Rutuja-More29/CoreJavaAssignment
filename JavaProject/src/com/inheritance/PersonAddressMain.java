@@ -11,7 +11,7 @@ public class PersonAddressMain {
 		Person p1=new Person(102,"aaa","ab25@gmail.com",987654321,a1);
 		System.out.println(p1);
 		
-		Address a2=new Address("khandobanagar","karanji",414106,"maharashtra");
+		Address a2=new Address("khandobanagar","nagar",414106,"maharashtra");
 		Person p2=new Person(103,"bbb","ab20@gmail.com",987654322,a2);
 		System.out.println(p2);
 
