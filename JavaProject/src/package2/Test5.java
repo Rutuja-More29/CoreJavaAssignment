@@ -7,7 +7,7 @@ public class Test5 {
 	//	System.out.println(t1.a);  default
 	//	System.out.println(t1.b);   private
 	//	System.out.println(t1.c);    protected
-		System.out.println(t1.d);
+	//	System.out.println(t1.d);
 
 		
 	}

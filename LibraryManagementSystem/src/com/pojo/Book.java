@@ -1,0 +1,42 @@
+package com.pojo;
+
+public class Book {
+	private int id, copyno;
+	private String name, author;
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public int getCopyno() {
+		return copyno;
+	}
+
+	public void setCopyno(int copyno) {
+		this.copyno = copyno;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getAuthor() {
+		return author;
+	}
+
+	public void setAuthor(String author) {
+		this.author = author;
+	}
+
+	public String toString() {
+		return id + " " + name + " " + copyno + " " + author;
+	}
+}
