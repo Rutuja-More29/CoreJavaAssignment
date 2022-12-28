@@ -3,7 +3,22 @@ package com.pojo;
 public class Transaction {
 	String bookName, issueDate, returnDate;
 	Student s;
+	
+	public Transaction()
+	{
+		
+	}
 
+	public Transaction(Student s,String bookName,String issueDate,String returnDate)
+	{
+		this.s=s;
+		this.bookName=bookName;
+		this.issueDate=issueDate;
+		this.returnDate=returnDate;
+	}
+	
+	
+	
 	public String getBookName() {
 		return bookName;
 	}

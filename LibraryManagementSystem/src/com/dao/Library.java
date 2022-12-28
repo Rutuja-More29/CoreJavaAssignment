@@ -16,7 +16,7 @@ public class Library {
 	Transaction t[] = new Transaction[5];
 	Scanner sc = new Scanner(System.in);
 
-	public void bookData() {
+/*	public void bookData() {
 		System.out.println("Enter no.of book");
 		int size = sc.nextInt();
 		for (int i = 0; i < size; i++) {
@@ -92,6 +92,6 @@ public class Library {
 		
 		
 		
-	}
+	}*/
 	
 }

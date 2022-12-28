@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class ReverseOrder {
 
 	public static void main(String[] args) {
-		int a[]= {30,90,45,2937,78};
+		int a[]= {30,90,45,29,37,78};
 		System.out.println(Arrays.toString(a));
 		int n=a.length;
 		int mid=n/2;

@@ -3,6 +3,18 @@ package com.pojo;
 public class Book {
 	private int id, copyno;
 	private String name, author;
+	public Book()
+	{
+		
+	}
+	public Book(int id,int copyno,String name,String author)
+	{
+		this. id=id;
+		this.copyno=copyno;
+		this.name=name;
+		this.author=author;
+		
+	}
 
 	public int getId() {
 		return id;
