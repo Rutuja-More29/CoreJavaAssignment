@@ -59,7 +59,7 @@ public class LabOperation {
 		Transaction tr=new Transaction();
 		System.out.println("Enter Bookname:");
 		String bookName=sc.next();
-		SimpleDateFormat sdf= new SimpleDateFormat("dd-mm-yyyy");
+		SimpleDateFormat sdf= new SimpleDateFormat("dd-MM-yyyy");
 		Calendar c=Calendar.getInstance();
 		String issueDate=sdf.format(c.getTime());
 		c.add(Calendar.DATE,15);
@@ -132,6 +132,7 @@ public class LabOperation {
 			}
 		}
 	}
+	
 	
 	
 
