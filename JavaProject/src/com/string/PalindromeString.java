@@ -23,7 +23,7 @@ public class PalindromeString {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enetr String:");
 		String s=sc.next();
-		String rev=" ";
+		String rev="";
 		PalindromeString p=new PalindromeString();
 		p.reverse(s, rev);
 

@@ -8,7 +8,7 @@ public class Palindrome {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter String:");
 		String s1 = sc.next();
-		String rev = " ";
+		String rev = "";
 		for (int i = (s1.length() - 1); i >= 0; i--)
 		{
 			rev = rev + s1.charAt(i);

@@ -17,19 +17,19 @@ public class LinkedListIteratorExample {
 		Iterator<String>itl=ll.iterator();
 		while(itl.hasNext())
 		{
-			System.out.println(itl.next());
+			System.out.print(itl.next()+" ");
 		}
-		System.out.println("----------forward direction--------");
+		System.out.println("\n\n----------forward direction--------");
 		ListIterator<String>stl=ll.listIterator();
 		while(stl.hasNext())
 		{
-			System.out.println(stl.next());
+			System.out.print(stl.next()+" ");
 		}
-		System.out.println("------backward direction-------");
+		System.out.println("\n\n------backward direction-------");
 		ListIterator<String>itrl=ll.listIterator(ll.size());
 		while(itrl.hasPrevious())
 		{
-			System.out.println(itrl.previous());
+			System.out.print(itrl.previous()+" ");
 		}
 
 	}
