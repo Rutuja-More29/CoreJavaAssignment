@@ -32,6 +32,7 @@ public class PersonAddressMain {
 			if(p.add.city.equalsIgnoreCase("mumbai"))
 			{
 				litr.remove();
+				
 			}
 			
 		}
