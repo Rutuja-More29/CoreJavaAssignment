@@ -1,0 +1,27 @@
+package stringarraypractice;
+import java.util.Scanner;
+public class PrimeNum {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter number:");
+		int num=sc.nextInt();
+		for(int i=1;i<=num;i++)
+		{
+			int mid=i/2,j;
+			for( j=2;j<=mid;j++)
+			{
+			if(i%j==0)
+			{
+				break;
+			}
+			}
+			if(j>mid)
+			{
+				System.out.println(i);
+			}
+		}
+
+	}
+
+}

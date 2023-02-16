@@ -6,7 +6,7 @@ public class PrimeNumber {
 		// TODO Auto-generated method stub
 		for(int i=1;i<=50;i++) {
 			int mid=i/2,j;
-			for( j=2;j<=i;j++) {
+			for( j=2;j<=mid;j++) {
 				if(i%j==0)
 				{
 					break;

@@ -52,10 +52,12 @@ public class EmployeeOperation {
 	}
 
 	public void removeEmployee(ArrayList<Employee> emp) {
+		System.out.println("Enter id:");
+		int id=sc.nextInt();
 		Iterator<Employee> itr = emp.iterator();
 		while (itr.hasNext()) {
 			Employee em = itr.next();
-			if (em.getId() == 101) {
+			if (em.getId() == id) {
 				itr.remove();
 			}
 			
@@ -74,6 +76,7 @@ public class EmployeeOperation {
 				}
 			}
 		}
+	
 	}
 	
 
