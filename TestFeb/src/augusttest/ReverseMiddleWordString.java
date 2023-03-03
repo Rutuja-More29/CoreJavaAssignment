@@ -38,9 +38,7 @@ public class ReverseMiddleWordString {
 		
 	}
 
-	private static String reverseMiddleWord(String s) {
-		// TODO Auto-generated method stub
-		return null;
-	}
+	
+	
 
 }
