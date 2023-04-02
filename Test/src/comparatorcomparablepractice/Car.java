@@ -38,7 +38,7 @@ public class Car implements Comparable<Car> {
 		return id+" "+name+" "+brandname+" "+lyear;
 	}
 	public int compareTo(Car c) {
-		if(this.brandname.compareToIgnoreCase(c.getBrandname())==0) {
+	if(this.brandname.compareToIgnoreCase(c.getBrandname())==0) {
 			if(this.price>c.price)
 				return 1;
 			else if(this.price<c.price)

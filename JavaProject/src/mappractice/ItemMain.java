@@ -16,6 +16,7 @@ public class ItemMain {
 			String s=it.name;
 			int i=it.qnty;
 			i=i+1;
+			
 			if(hm.containsKey(s))
 			{
 				hm.put(s,i );

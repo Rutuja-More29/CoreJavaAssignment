@@ -8,7 +8,7 @@ public class DBMain {
 		// TODO Auto-generated method stub
 		Connection conn=DBConnection.getConnection();
 		FriendshipOperation f=new FriendshipOperation();
-		//f.displayData(conn);
+		f.displayData(conn);
 		f.insertData(conn);
 
 	}
